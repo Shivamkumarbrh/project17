@@ -1,0 +1,152 @@
+.team{
+    padding: 100px 0px;
+}
+.team-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 98%;
+    margin: auto;
+    gap: 5px 10px;
+    box-sizing: border-box;
+}
+#team-first-p{
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+#team-second-p{
+    margin: 60px 0px;
+    width: 100%;
+    text-align: center;
+}
+.team-box{
+    /* border: 1px solid; */
+    width: 24%;
+    box-shadow: 2px 2px 5px 3px #ddd;
+}
+.team-box img{
+    width: 100%;
+}
+.team-box-content{
+    padding: 10px;
+}
+.team-box-content-para{
+    margin: 15px 0px;
+}
+.name{
+    font-size: 25px;
+}
+.team-box-content button{
+    margin: 10px 0px;
+    width: 100%;
+    padding:10px 0px;
+    border: none;
+}
+.team-box-content button i{
+    padding: 0px 5px;
+}
+.detail{
+    background-color: rgb(122, 120, 120);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.detail-box{
+    width: 25%;
+    padding: 70px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.detail-para{
+    font-size: 40px;
+    padding: 10px 0px;
+}
+.our-work{
+    padding: 100px 0px;
+}
+.our-work-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+    gap: 15px 5px;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+#our-work-first-para{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+#our-work-second-para{
+    width: 100%;
+    margin: 25px 0px;
+    text-align: center;
+}
+.our-work-img{
+    width: 24%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.our-work-img img{
+    width: 100%;
+}
+ .our-skill{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+    padding: 60px 0px;
+ }
+ .our-skill-container{
+    width: 50%;
+    padding: 20px 35px;
+    box-sizing: border-box;
+ }
+ #our-skill-paragraph-base{
+    font-size: 25px;
+ }
+ #our-skill-paragraph-first{
+    margin: 15px 0px;
+ }
+ #our-skill-paragraph-second{
+    margin: 15px 0px;
+ }
+ .parameter{
+    width: 50%;
+    padding: 20px 35px;
+    box-sizing: border-box;
+ }
+ .parameter-cantainer{
+    width: 100%;
+    margin: 20px 0px;
+    background-color: #aaa;
+ }
+ .parameter-p{
+    padding: 0px 15px;
+ }
+ #parameter-first{
+    width: 80%;
+    display: block;
+    background-color: #333;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+ }
+ #parameter-second{
+    width: 65%;
+    display: block;
+    background-color: #333;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+ }
+ #parameter-third{
+    width: 55%;
+    display: block;
+    background-color: #333;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+ }

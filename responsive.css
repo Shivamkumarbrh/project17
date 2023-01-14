@@ -1,0 +1,160 @@
+
+@media screen and (max-width:1205px) {
+    .bg-container{
+        padding: 120px 50px;
+    }
+}
+@media screen and (max-width:992px) {
+    .bg-container{
+        padding: 80px 50px;
+    }
+    .about-box p{
+        line-height: 30px;
+        padding:0px 7px ;
+    }
+    .design-img{
+        width: 50%;
+        justify-self:center;
+        align-self: center;
+    }
+    .design-img img{
+        width: 90%;
+    }
+    .team-box{
+        width: 47%;
+        margin: 10px 0px;
+    }
+    .our-work-img{
+        width: 49%;
+    }
+    .pricing{
+        padding: 100px 5px;
+        
+    }
+    .pricing-box{
+        width: 30%;
+        /* border: 1px solid; */
+    }
+    .detail{
+        padding: 50px 0px;
+    }
+    .detail-box{
+        width: 25%;
+        padding: 5px;
+    }
+    .detail-para{
+        font-size: 35px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .navbar-container{
+        display: none;
+    }
+    #bar{
+        display:inline-block;
+        padding: 20px 15px;
+        color: black;
+    }
+    #bar:hover{
+        background-color: #aaa;
+    }
+    .navbar-container2{
+        position: absolute;
+        top: 0;
+        left: 0px;
+        width: 40%;
+        height: 100vh;
+        background-color: black;
+    }
+    .navbar-container2 a{
+        color: white;
+        display: block;
+        text-decoration: none;
+        padding: 15px 20px;
+    }
+    .navbar-container2 a:hover{
+        background-color: #ddd;
+        color: black;
+        cursor: pointer;
+    }
+    #close-btn{
+        padding: 20px 20px;
+        font-size: 20px;
+    }
+    .bg-container{
+        padding: 100px 50px;
+    }
+    #bg-para{
+        font-size: 2.2em;
+    }
+    #bg-para-second{
+        padding: 15px 0px;
+    }
+    .about-box{
+        width: 100%;
+    }
+    .about-box i{
+        font-size: 65px;
+    }
+    .design-container{
+        padding: 50px 0px;
+    }
+    .design-content{
+        width: 100%;
+        padding: 20px 30px;
+    }
+    .design-img{
+        width: 100%;
+    }
+    .design-img img{
+        width: 90%;
+    }
+    .team-box{
+        width: 90%;
+        /* padding: 15px 0px; */
+        margin: 10px 0px;
+    }
+    #team-second-p{
+        margin: 30px 0px;
+    }
+    .detail{
+        padding: 30px 0px;
+    }
+    .detail-box{
+        width: 100%;
+        padding: 5px;
+    }
+    .detail-para{
+        font-size: 25px;
+    }
+    .our-work-img{
+        width: 100%;
+    }
+    .our-skill-container{
+        width: 100%;
+        padding: 20px 35px;
+        box-sizing: border-box;
+     }
+     .parameter{
+        width: 100%;
+        padding: 20px 35px;
+        box-sizing: border-box;
+     }
+     .pricing-box{
+        width: 95%;
+        margin: 25px 0px;
+        /* border: 1px solid; */
+    }
+}
