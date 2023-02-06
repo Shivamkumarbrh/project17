@@ -48,7 +48,7 @@
 .bg{
     position: relative;
     filter: grayscale(50%);
-    background-image: url('/img/third.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593337_960_720.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -68,7 +68,11 @@
 #bg-btn{
     padding: 15px 15px;
     border: none;
+    cursor: pointer;
     margin: 15px 0px;
+}
+#bg-btn:hover{
+    background-color: #ddd;
 }
 #bg-bottom{
     position: relative;
@@ -79,6 +83,9 @@
     font-size: 1.2em;
     padding: 0px 2px;
     color: #ddd;
+}
+#bg-bottom i:hover{
+    color: #aaa;
 }
 .about{
     padding: 100px 0px;
@@ -111,6 +118,9 @@
 .design{
     background-color: #f1f1f1;
     padding: 50px 0px;
+}
+#design-btn{
+    cursor: pointer;
 }
 .design-container{
     display: flex;

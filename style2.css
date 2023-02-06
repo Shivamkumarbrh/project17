@@ -40,8 +40,12 @@
 .team-box-content button{
     margin: 10px 0px;
     width: 100%;
+    cursor: pointer;
     padding:10px 0px;
     border: none;
+}
+.team-box-content button:hover{
+    background-color: #aaa;
 }
 .team-box-content button i{
     padding: 0px 5px;
@@ -92,6 +96,10 @@
 }
 .our-work-img img{
     width: 100%;
+    opacity: 1;
+}
+.our-work-img img:hover{
+    opacity: 0.7;
 }
  .our-skill{
     display: flex;

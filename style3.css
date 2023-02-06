@@ -57,6 +57,7 @@ text-align: center;
     color: white;
     border: none;
     padding: 18px 20px;
+    cursor: pointer;
 }
 .pricing-btn-inside:hover{
     background-color: #aaa;
@@ -118,6 +119,7 @@ padding: 30px 20px;
     margin: 5px 0px;
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 #contact-btn:hover{
     background-color: #aaa;
@@ -148,14 +150,10 @@ footer{
 #footer-btn:hover{
     background-color: #ddd;
 }
-footer a i{
-    padding: 10px 12px;
-    font-size: 20px;
-    margin: 20px 0px;
-}
-footer i{
+footer p a i{
     padding: 10px 2px;
     font-size: 20px;
+    color: white;
     margin: 20px 0px;
 }
 footer i:hover{
